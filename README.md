@@ -73,6 +73,11 @@ $ java -jar target/ysoserial-0.0.4-all.jar CommonsCollections1 'bin/sh' '-c' 'ec
 
 1. Download the latest jar from the "releases" section.
 
+
+### Building
+1.Requires Java 1.7+ and Maven 3.x+
+2.mvn clean package -DskipTests
+
 ## Code Status
 
 [![Build Status](https://travis-ci.org/frohoff/ysoserial.svg?branch=master)](https://travis-ci.org/frohoff/ysoserial)
